@@ -15,7 +15,7 @@ return(
             <img
               variant="top"
               src={movie.imgUrl}
-              alt="image"
+              alt="image1"
             />
             <div>
               <h3 className='title'>{movie.movie}</h3>

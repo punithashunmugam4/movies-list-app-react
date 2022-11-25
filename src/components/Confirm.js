@@ -7,7 +7,7 @@ const Confirm=({details})=>{
     const [success,setSuccess]=useState(false);
     const handleConfirm=()=>{
         availability.forEach((item)=>{
-            if(item.movie==details.movie){
+            if(item.movie===details.movie){
                 details.seats.forEach((i)=>{
                     item.seatsFilled.push(i)
                 })
