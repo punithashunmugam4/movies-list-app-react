@@ -1,0 +1,17 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(109, 87, 172);
+}
+#header>h1{
+    margin-left: 1%;
+}
+.navbar{
+    float: right;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
