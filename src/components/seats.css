@@ -1,48 +1,53 @@
-.filled{
-    background-color: red;
+.filled {
+  background-color: red;
 }
-.available{
-    background-color: green;
+.available {
+  background-color: green;
 }
-.bookseats{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.bookseats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.allSeats{
-    display: flex;
-    justify-content: space-evenly;
-    align-items:baseline;
+.allSeats {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
-.Seats-section-1,.Seats-section-2{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-gap: 10px;
-    margin-right: 40px;
-    margin-left: 40px;
+.Seats-section-1,
+.Seats-section-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
-.filled,.available{
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    cursor: pointer;
+.filled,
+.available {
+  width: 40px;
+  height: 35px;
+  border: 3px solid white;
+  padding-top: 5px;
+  text-align: center;
+  cursor: pointer;
 }
-h2,h1{
-    text-align: center;
+h2,
+h1 {
+  text-align: center;
 }
-button{
-    margin-top: 10px;
-    color: white;
-    background-color: blue;
-    box-shadow: 1px 2px 2px;
-    width: 100px;
-    padding: 5px;
-    border: none;
-    cursor: pointer;
+button {
+  margin-top: 10px;
+  color: white;
+  background-color: blue;
+  box-shadow: 1px 2px 2px;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
 }
-button:hover{
-    background-color: rgb(51, 51, 95);
+button:hover {
+  background-color: rgb(51, 51, 95);
 }
-.selected{
-    border: 3px solid black;
+.selected {
+  border: 3px solid black;
 }
